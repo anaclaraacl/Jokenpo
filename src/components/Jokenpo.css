@@ -1,0 +1,124 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"Roboto", sans-serif;
+  background-color: #3f7ab4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  background-color: #FFE6CF;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px #00000044;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  
+  border: none;
+  color: #000000;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  background-color: #e04f93a6;
+
+}
+
+button:hover {
+  background-color:#e04f93b6;
+}
+
+button:focus {
+  outline: none;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.choice-button {
+  background-color: transparent;
+  border: 2px solid #e04f93a6;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.choice-button:hover {
+  transform: scale(1.1);
+  background-color: #FFE6CF;
+}
+
+.choice-button img {
+  width: 55px;
+  height: 55px;
+}
+
+.scoreboard {
+  margin: 20px 0;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score {
+  background-color: #e04f93a6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.result {
+  font-size: 1.8em;
+  color: #0367A6;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choice-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.choice-display img {
+  width: 80px;
+  height: 80px;
+}
+
+.result-container p {
+  font-size: 1.2em;
+}
+
+  
